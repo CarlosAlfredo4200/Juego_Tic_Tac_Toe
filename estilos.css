@@ -1,0 +1,110 @@
+
+body{
+    background-color: #06283D;
+}
+
+.div{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    align-items: center;
+}
+.title{
+    text-align: center;
+    margin: 16px ;
+    color: #DFF6FF;  
+}
+
+h3{
+    color: white;
+    
+}
+
+input{
+    
+    background: none;
+    color: white;
+    border-radius: 8px;
+    width: 130px;
+    height: 30px;
+     
+    border: 1px solid rgba(160, 160, 160, 0.37);
+    cursor: pointer;
+    margin: 0px 10px;
+    padding-left: 5px;
+}
+
+.title span{
+    text-transform: capitalize;
+}
+.grid{
+    display: grid;
+    grid-template-areas: 
+    "a b c"
+    "d e f"
+    "g h i"
+    ;
+
+    justify-content: center;
+    align-items: center;
+    background-color:#256D85;
+    width: 50%;
+    margin: 0 auto;
+    padding: 18px;
+    
+    border-radius: 8px;
+
+}
+
+.grid div{
+    width: 50px;
+    height: 50px;
+    margin: 7px;
+    background-color: #47B5FF;
+    font-size: 25px;
+    border: .5px solid rgba(228, 224, 224, 0.87);
+    border-radius: 50px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #DFF6FF;
+}
+
+.flexbox{
+    display: flex;
+    justify-content: center;
+}
+.flexbox button{
+    width: 130px;
+    height: 30px;
+     
+    margin: 20px;
+    
+    border-radius: 8px;
+    font-weight: 900;
+    border: 1px solid rgba(160, 160, 160, 0.37);
+    cursor: pointer;
+    transition: all .5s ease;
+    background-color: #06283D;
+    color: #DFF6FF;
+
+}
+
+button:hover{
+    
+    background-color: #82badd;
+    color: black;
+    
+}
+
+.ganador{
+    text-align: center;
+    color: yellow;
+}
+.ganador small{
+    color: white;
+    font-size: 17px;
+}
